@@ -1,0 +1,12 @@
+/projects/piml_inversion/FWIOpenData/CurveFault_B/seis6_1_32.npy	/projects/piml_inversion/FWIOpenData/CurveFault_B/vel6_1_32.npy
+/projects/piml_inversion/FWIOpenData/CurveFault_B/seis6_1_33.npy	/projects/piml_inversion/FWIOpenData/CurveFault_B/vel6_1_33.npy
+/projects/piml_inversion/FWIOpenData/CurveFault_B/seis6_1_34.npy	/projects/piml_inversion/FWIOpenData/CurveFault_B/vel6_1_34.npy
+/projects/piml_inversion/FWIOpenData/CurveFault_B/seis6_1_35.npy	/projects/piml_inversion/FWIOpenData/CurveFault_B/vel6_1_35.npy
+/projects/piml_inversion/FWIOpenData/CurveFault_B/seis7_1_32.npy	/projects/piml_inversion/FWIOpenData/CurveFault_B/vel7_1_32.npy
+/projects/piml_inversion/FWIOpenData/CurveFault_B/seis7_1_33.npy	/projects/piml_inversion/FWIOpenData/CurveFault_B/vel7_1_33.npy
+/projects/piml_inversion/FWIOpenData/CurveFault_B/seis7_1_34.npy	/projects/piml_inversion/FWIOpenData/CurveFault_B/vel7_1_34.npy
+/projects/piml_inversion/FWIOpenData/CurveFault_B/seis7_1_35.npy	/projects/piml_inversion/FWIOpenData/CurveFault_B/vel7_1_35.npy
+/projects/piml_inversion/FWIOpenData/CurveFault_B/seis8_1_32.npy	/projects/piml_inversion/FWIOpenData/CurveFault_B/vel8_1_32.npy
+/projects/piml_inversion/FWIOpenData/CurveFault_B/seis8_1_33.npy	/projects/piml_inversion/FWIOpenData/CurveFault_B/vel8_1_33.npy
+/projects/piml_inversion/FWIOpenData/CurveFault_B/seis8_1_34.npy	/projects/piml_inversion/FWIOpenData/CurveFault_B/vel8_1_34.npy
+/projects/piml_inversion/FWIOpenData/CurveFault_B/seis8_1_35.npy	/projects/piml_inversion/FWIOpenData/CurveFault_B/vel8_1_35.npy

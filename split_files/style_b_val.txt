@@ -1,0 +1,14 @@
+/projects/piml_inversion/FWIOpenData/Style_B/data/data121.npy	/projects/piml_inversion/FWIOpenData/Style_B/model/model121.npy
+/projects/piml_inversion/FWIOpenData/Style_B/data/data122.npy	/projects/piml_inversion/FWIOpenData/Style_B/model/model122.npy
+/projects/piml_inversion/FWIOpenData/Style_B/data/data123.npy	/projects/piml_inversion/FWIOpenData/Style_B/model/model123.npy
+/projects/piml_inversion/FWIOpenData/Style_B/data/data124.npy	/projects/piml_inversion/FWIOpenData/Style_B/model/model124.npy
+/projects/piml_inversion/FWIOpenData/Style_B/data/data125.npy	/projects/piml_inversion/FWIOpenData/Style_B/model/model125.npy
+/projects/piml_inversion/FWIOpenData/Style_B/data/data126.npy	/projects/piml_inversion/FWIOpenData/Style_B/model/model126.npy
+/projects/piml_inversion/FWIOpenData/Style_B/data/data127.npy	/projects/piml_inversion/FWIOpenData/Style_B/model/model127.npy
+/projects/piml_inversion/FWIOpenData/Style_B/data/data128.npy	/projects/piml_inversion/FWIOpenData/Style_B/model/model128.npy
+/projects/piml_inversion/FWIOpenData/Style_B/data/data129.npy	/projects/piml_inversion/FWIOpenData/Style_B/model/model129.npy
+/projects/piml_inversion/FWIOpenData/Style_B/data/data130.npy	/projects/piml_inversion/FWIOpenData/Style_B/model/model130.npy
+/projects/piml_inversion/FWIOpenData/Style_B/data/data131.npy	/projects/piml_inversion/FWIOpenData/Style_B/model/model131.npy
+/projects/piml_inversion/FWIOpenData/Style_B/data/data132.npy	/projects/piml_inversion/FWIOpenData/Style_B/model/model132.npy
+/projects/piml_inversion/FWIOpenData/Style_B/data/data133.npy	/projects/piml_inversion/FWIOpenData/Style_B/model/model133.npy
+/projects/piml_inversion/FWIOpenData/Style_B/data/data134.npy	/projects/piml_inversion/FWIOpenData/Style_B/model/model134.npy
