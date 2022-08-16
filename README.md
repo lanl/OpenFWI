@@ -1,14 +1,15 @@
 This program is open source under the BSD-3 License.
 Redistribution and use in source and binary forms, with or without modification, are permitted
 provided that the following conditions are met:
+
 1. Redistributions of source code must retain the above copyright notice, this list of conditions and
 the following disclaimer.
  
-2.Redistributions in binary form must reproduce the above copyright notice, this list of conditions
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions
 and the following disclaimer in the documentation and/or other materials provided with the
 distribution.
  
-3.Neither the name of the copyright holder nor the names of its contributors may be used to endorse
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse
 or promote products derived from this software without specific prior written permission.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
@@ -85,7 +86,7 @@ The following packages are required:
 If you other versions of pytorch and torchvision, please make sure they align.
 
 ### InversionNet
-To train from scratch on Flatvel-A dataset with $$\ell_1$$ loss,  run the following codes:
+To train from scratch on Flatvel-A dataset with $\ell_1$ loss,  run the following codes:
 ```
 python train.py -ds flatvel-a -n YOUR_DIRECTORY -m InversionNet -g2v 0 --tensorboard -t flatvel_a_train.txt -v flatvel_a_val.txt
 ```
@@ -110,7 +111,7 @@ python test.py -ds flatvel-a -n YOUR_DIRECTORY -m InversionNet -v flatvel_a_val.
 ### VelocityGAN
 The code logic of VelocityGAN is almost identical the that of InversionNet.
 
-To train from scratch on Flatvel-A dataset with $$\ell_1$$ loss, run the following codes:
+To train from scratch on Flatvel-A dataset with $\ell_1$ loss, run the following codes:
 ```
 python gan_train.py -ds flatvel-a -n YOUR_DIRECTORY -m InversionNet -g2v 0 --tensorboard -t flatvel_a_train.txt -v flatvel_a_val.txt
 ```
@@ -118,7 +119,7 @@ To continue training from a saved checkpoint, run the following codes:
 ```
 python gan_train.py -ds flatvel-a -n YOUR_DIRECTORY -r CHECKPOINT.PTH -m InversionNet -g2v 0 --tensorboard -t flatvel_a_train.txt -v flatvel_a_val.txt
 ```
-The command for testing is the small with InversionNet
+The command for testing is the same with InversionNet
 
 
 ## Future Updates
