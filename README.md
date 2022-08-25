@@ -61,7 +61,7 @@ Note that there are many ways of organizing training and testing dataset, as lon
 | Style Family   | 60k / 7k     | data(model)1-120.npy / data(model)121-134.npy |
 
 
-A convinient way of loading the data is to use a `.txt` file containing the _location+filename_ of all `.npy` files, parse each line of the `.txt` file and push to the dataloader. Take **flatvel-A** as an exmaple, we create `flatvel-a-train.txt`, organized as the follows, and same for `flatvel-a-test.txt`. 
+A convenient way of loading the data is to use a `.txt` file containing the _location+filename_ of all `.npy` files, parse each line of the `.txt` file and push to the dataloader. Take **flatvel-A** as an exmaple, we create `flatvel-a-train.txt`, organized as the follows, and same for `flatvel-a-test.txt`. 
 ```bash
 Dataset_directory/data1.npy
 Dataset_directory/data2.npy
