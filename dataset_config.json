@@ -168,6 +168,22 @@
         "ng": 70,
         "sz": 10,
         "gz": 10
+    },
+    "flatvel-tutorial": {
+        "data_min": -26.95,
+        "data_max": 52.77,
+        "label_min": 1500,
+        "label_max": 4500,
+        "file_size": 100,
+        "nbc": 120,
+        "dx": 10,
+        "nt": 1000,
+        "dt": 1e-3,
+        "f": 15,
+        "n_grid": 70,
+        "ns": 5,
+        "ng": 70,
+        "sz": 10,
+        "gz": 10
     }
-
 }
