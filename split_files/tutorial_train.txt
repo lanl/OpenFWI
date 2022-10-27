@@ -1,3 +1,2 @@
 ./fva_data1.npy	./fva_model1.npy
 ./fva_data2.npy	./fva_model2.npy
-./fva_data3.npy	./fva_model3.npy
