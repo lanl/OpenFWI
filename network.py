@@ -175,7 +175,7 @@ class InversionNet(nn.Module):
         x = self.convblock5_2(x) # (None, 128, 32, 35)
         x = self.convblock6_1(x) # (None, 256, 16, 18) 
         x = self.convblock6_2(x) # (None, 256, 16, 18)
-        x = self.convblock7_1(x) # (None, 256, 8, 9) 7
+        x = self.convblock7_1(x) # (None, 256, 8, 9) 
         x = self.convblock7_2(x) # (None, 256, 8, 9)
         x = self.convblock8(x) # (None, 512, 1, 1)
         
@@ -184,11 +184,11 @@ class InversionNet(nn.Module):
         x = self.deconv1_2(x) # (None, 512, 5, 5)
         x = self.deconv2_1(x) # (None, 256, 10, 10) 
         x = self.deconv2_2(x) # (None, 256, 10, 10)
-        x = self.deconv3_1(x) # (None, 128, 20, 20) 32, 28
+        x = self.deconv3_1(x) # (None, 128, 20, 20) 
         x = self.deconv3_2(x) # (None, 128, 20, 20)
-        x = self.deconv4_1(x) # (None, 64, 40, 40) 64, 56
+        x = self.deconv4_1(x) # (None, 64, 40, 40) 
         x = self.deconv4_2(x) # (None, 64, 40, 40)
-        x = self.deconv5_1(x) # (None, 32, 80, 80) 128, 112
+        x = self.deconv5_1(x) # (None, 32, 80, 80)
         x = self.deconv5_2(x) # (None, 32, 80, 80)
         x = F.pad(x, [-5, -5, -5, -5], mode="constant", value=0) # (None, 32, 70, 70) 125, 100
         x = self.deconv6(x) # (None, 1, 70, 70)
