@@ -14,22 +14,22 @@ def plot_velocity(output, target, path, vmin=None, vmax=None):
     if vmin is None or vmax is None:
         vmax, vmin = np.max(target), np.min(target)
     im = ax[0].matshow(output, cmap=rainbow_cmap, vmin=vmin, vmax=vmax)
-    # ax[0].set_title('Prediction', y=1.08)
+    ax[0].set_title('Prediction', y=1.08)
     ax[1].matshow(target, cmap=rainbow_cmap, vmin=vmin, vmax=vmax)
-    # ax[1].set_title('Ground Truth', y=1.08)
+    ax[1].set_title('Ground Truth', y=1.08)
     
     for axis in ax:
         # axis.set_xticks(range(0, 70, 10))
         # axis.set_xticklabels(range(0, 1050, 150))
         # axis.set_yticks(range(0, 70, 10))
         # axis.set_yticklabels(range(0, 1050, 150))
-        axis.set_xticks(range(0, 60, 10))
-        axis.set_xticklabels(range(0, 600, 100))
-        axis.set_yticks(range(0, 40, 10))
-        axis.set_yticklabels(range(0, 400, 100))
+        axis.set_xticks(range(0, 70, 10))
+        axis.set_xticklabels(range(0, 700, 100))
+        axis.set_yticks(range(0, 70, 10))
+        axis.set_yticklabels(range(0, 700, 100))
 
-        axis.set_title('Offset (m)', y=1.1)
         axis.set_ylabel('Depth (m)', fontsize=12)
+        axis.set_xlabel('Offset (m)', fontsize=12)
 
     fig.colorbar(im, ax=ax, shrink=0.75, label='Velocity(m/s)')
     plt.savefig(path)
