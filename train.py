@@ -275,7 +275,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description='FCN Training')
     parser.add_argument('-d', '--device', default='cuda', help='device')
     parser.add_argument('-ds', '--dataset', default='flatfault-b', type=str, help='dataset name')
-    parser.add_argument('-fs', '--file-size', default=None, type=str, help='number of samples in each npy file')
+    parser.add_argument('-fs', '--file-size', default=None, type=int, help='number of samples in each npy file')
 
     # Path related
     parser.add_argument('-ap', '--anno-path', default='split_files', help='annotation files location')
