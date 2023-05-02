@@ -331,8 +331,8 @@ def parse_args():
     parser.add_argument('--weight-decay', default=1e-4 , type=float, help='weight decay (default: 1e-4)')
     parser.add_argument('--lr-gamma', default=0.1, type=float, help='decrease lr by a factor of lr-gamma')
     parser.add_argument('--lr-warmup-epochs', default=0, type=int, help='number of warmup epochs')   
-    parser.add_argument('-eb', '--epoch_block', type=int, default=160, help='epochs in a saved block')
-    parser.add_argument('-nb', '--num_block', type=int, default=4, help='number of saved block')
+    parser.add_argument('-eb', '--epoch_block', type=int, default=20, help='epochs in a saved block')
+    parser.add_argument('-nb', '--num_block', type=int, default=25, help='number of saved block')
     parser.add_argument('-j', '--workers', default=16, type=int, help='number of data loading workers (default: 16)')
     parser.add_argument('--k', default=1, type=float, help='k in log transformation')
     parser.add_argument('--print-freq', default=20, type=int, help='print frequency')
@@ -340,7 +340,7 @@ def parse_args():
     parser.add_argument('--start-epoch', default=0, type=int, help='start epoch')
 
     # Loss related
-    parser.add_argument('-g1v', '--lambda_g1v', type=float, default=0.0)
+    parser.add_argument('-g1v', '--lambda_g1v', type=float, default=100.0)
     parser.add_argument('-g2v', '--lambda_g2v', type=float, default=100.0)
     parser.add_argument('-adv', '--lambda_adv', type=float, default=1.0)
     parser.add_argument('-gp', '--lambda_gp', type=float, default=10.0)
