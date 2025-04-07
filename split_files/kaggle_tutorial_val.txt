@@ -1,1 +1,1 @@
-/kaggle/input/waveform-inversion/train_samples/FlatVel_A/data/data2.npy	/kaggle/input/waveform-inversion/train_samples/FlatVel_A/model/model2.npy.npy
+/kaggle/input/waveform-inversion/train_samples/FlatVel_A/data/data2.npy	/kaggle/input/waveform-inversion/train_samples/FlatVel_A/model/model2.npy
